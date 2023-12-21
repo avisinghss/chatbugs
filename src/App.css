@@ -2,3 +2,17 @@
     margin: 0;
     padding: 0;
 }
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #5d5b8d;
+    border-radius: 5px;
+    background-clip: padding-box;
+}
+
+::-webkit-scrollbar-track {
+    width: 20px;
+}

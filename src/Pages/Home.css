@@ -68,9 +68,12 @@ button {
 
 .searchForm>input {
     background-color: transparent;
+    width: 90%;
+    padding: 10px;
     border: none;
     color: white;
     outline: none;
+    box-shadow: inset 0px 0px 18px 6px #00000063;
 }
 
 .searchForm>input::placeholder {
